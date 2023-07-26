@@ -2,6 +2,7 @@
 * Core codes for the paper ["Digital twin-assisted imbalanced fault diagnosis framework using subdomain adaptive mechanism and margin-aware regularization"](https://www.sciencedirect.com/science/article/pii/S0951832023004362)
 * Created by Shen Yan, Xiang Zhong, Haidong Shao, Yuhang Ming, Chao Liu, Bin Liu.
 * Journal: Reliability Engineering and System Safety
+
 ![Framework](https://github.com/yanshen0210/Digital-twin-assisted-imbalanced-fault-diagnosis-framework/blob/main/framework.jpg)
 ## Our operating environment
 * Python 3.8
@@ -22,12 +23,12 @@
 * [XJTU gearbox](https://drive.google.com/drive/folders/1ejGZu9oeL1D9nKN07Q7z72O8eFrWQTay?usp=sharing)
 
 ## Run the code
-* The prorposed method
-`args_diagnosis.py` --transfer_task ADAMS_SEU or ADAMS_XJTU; --transfer_loss SAM+MAR
-* data-level methods
-1. `args_diagnosis.py` --transfer_task SEU or XJTU; --SMOTETomek True; --gan False; --gen_data False
-2. `args_diagnosis.py` --transfer_task SEU or XJTU; --SMOTETomek False; --gan True; --gen_data True; --gan_model ACGAN or VAE_GAN or WGAN_GP
-* algorithm-level methods
+### The prorposed method
+* `args_diagnosis.py` --transfer_task ADAMS_SEU or ADAMS_XJTU; --transfer_loss SAM+MAR
+### data-level methods
+* `args_diagnosis.py` --transfer_task SEU or XJTU; --SMOTETomek True; --gan False; --gen_data False
+*  `args_diagnosis.py` --transfer_task SEU or XJTU; --SMOTETomek False; --gan True; --gen_data True; --gan_model ACGAN or VAE_GAN or WGAN_GP
+### algorithm-level methods
 `args_diagnosis.py` --transfer_task SEU or XJTU; --SMOTETomek False; --gan False; --gen_data False; --cost_loss True; --loss WL or FL or DWBL or CBL
 
 ## Pakages
