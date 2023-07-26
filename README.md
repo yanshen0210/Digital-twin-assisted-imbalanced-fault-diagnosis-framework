@@ -18,13 +18,15 @@
 * You can also choose the modules or adjust the parameters of the model to suit your needs.
 
 ## Datasets
-* [ADAMS gearbox (simulation data)](https://drive.google.com/file/d/1dlaCZeV-5ACsC1EAuImljdtS53OprZ3V/view?usp=drive_link)
+* ~~[ADAMS gearbox](https://drive.google.com/file/d/1dlaCZeV-5ACsC1EAuImljdtS53OprZ3V/view?usp=drive_link)~~
+(We are very sorry that the simulation data cannot open for the time being because the sharing right is not obtained)
 * [SEU gearbox](https://drive.google.com/file/d/1ZfKWYK-xRl3Oy7zMuzlmkSy9G4mQh0y1/view?usp=drive_link)
 * [XJTU gearbox](https://drive.google.com/drive/folders/1ejGZu9oeL1D9nKN07Q7z72O8eFrWQTay?usp=sharing)
 
 ## Run the code
-### The prorposed method
-* `args_diagnosis.py` --transfer_task ADAMS_SEU or ADAMS_XJTU; --transfer_loss SAM+MAR
+### The proposed method
+~~* `args_diagnosis.py` --transfer_task ADAMS_SEU or ADAMS_XJTU; --transfer_loss SAM+MAR~~
+* (You can import your own dataset and debug the algorithm)
 ### data-level methods
 * `args_diagnosis.py` --transfer_task SEU or XJTU; --SMOTETomek True; --gan False; --gen_data False
 *  `args_diagnosis.py` --transfer_task SEU or XJTU; --SMOTETomek False; --gan True; --gen_data True; --gan_model ACGAN or VAE_GAN or WGAN_GP
