@@ -25,13 +25,15 @@
 
 ## Run the code
 ### The proposed method
-~~* `args_diagnosis.py` --transfer_task ADAMS_SEU or ADAMS_XJTU; --transfer_loss SAM+MAR~~
+* ~~`args_diagnosis.py` --transfer_task ADAMS_SEU or ADAMS_XJTU; --transfer_loss SAM+MAR~~
 * (You can import your own dataset and debug the algorithm)
 ### data-level methods
 * `args_diagnosis.py` --transfer_task SEU or XJTU; --SMOTETomek True; --gan False; --gen_data False
-*  `args_diagnosis.py` --transfer_task SEU or XJTU; --SMOTETomek False; --gan True; --gen_data True; --gan_model ACGAN or VAE_GAN or WGAN_GP
+*  `args_diagnosis.py` --transfer_task SEU or XJTU; --SMOTETomek False; --gan True; --gen_data True;
+ <br> --gan_model ACGAN or VAE_GAN or WGAN_GP
 ### algorithm-level methods
-`args_diagnosis.py` --transfer_task SEU or XJTU; --SMOTETomek False; --gan False; --gen_data False; --cost_loss True; --loss WL or FL or DWBL or CBL
+`args_diagnosis.py` --transfer_task SEU or XJTU; --SMOTETomek False; --gan False; --gen_data False; --cost_loss True; 
+ <br> --loss WL or FL or DWBL or CBL
 
 ## Pakages
 * `data` needs loading the Datasets in above links
