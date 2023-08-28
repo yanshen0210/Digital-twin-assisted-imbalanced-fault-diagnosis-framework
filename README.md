@@ -1,12 +1,16 @@
 # Digital twin-assisted imbalanced fault diagnosis framework using subdomain adaptive mechanism and margin-aware regularization
-* Core codes for the paper ["Digital twin-assisted imbalanced fault diagnosis framework using subdomain adaptive mechanism and margin-aware regularization"](https://www.sciencedirect.com/science/article/pii/S0951832023004362)
+* Core codes for the paper: ["Digital twin-assisted imbalanced fault diagnosis framework using subdomain adaptive mechanism and margin-aware regularization"](https://www.sciencedirect.com/science/article/pii/S0951832023004362)
 * Created by Shen Yan, Xiang Zhong, Haidong Shao, Yuhang Ming, Chao Liu, Bin Liu.
 * Journal: Reliability Engineering and System Safety
 
-![Framework](https://github.com/yanshen0210/Digital-twin-assisted-imbalanced-fault-diagnosis-framework/blob/main/framework.jpg)
+<div align="center">
+<img src="https://github.com/yanshen0210/Digital-twin-assisted-imbalanced-fault-diagnosis-framework/blob/main/framework.jpg" width="800" />
+</div>
+
 ## Our operating environment
 * Python 3.8
 * pytorch  1.10.1
+* numpy  1.22.0 (If you get an error when saving data, try lowering your numpy version!)
 * and other necessary libs
 
 ## Guide 
@@ -18,8 +22,7 @@
 * You can also choose the modules or adjust the parameters of the model to suit your needs.
 
 ## Datasets
-* ~~[ADAMS gearbox] (simulation data)~~
-* (We are very sorry that the simulation data cannot open for the time being because the sharing right is not obtained)
+* ~~[ADAMS gearbox]~~ (We are very sorry that the simulation data cannot open for the time being because the sharing right is not obtained)
 * [SEU gearbox](https://drive.google.com/file/d/1ZfKWYK-xRl3Oy7zMuzlmkSy9G4mQh0y1/view?usp=drive_link)
 * [XJTU gearbox](https://drive.google.com/drive/folders/1ejGZu9oeL1D9nKN07Q7z72O8eFrWQTay?usp=sharing)
 
