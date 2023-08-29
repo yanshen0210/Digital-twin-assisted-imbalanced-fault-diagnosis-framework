@@ -21,7 +21,7 @@ args = None
 def parse_args():
     parser = argparse.ArgumentParser(description='Train')
     # model and data parameters
-    parser.add_argument('--save_dataset', type=bool, default=True, help='whether saving the dataset')
+    parser.add_argument('--save_dataset', type=bool, default=False, help='whether saving the dataset')
     parser.add_argument('--transfer_task', type=str, default='ADAMS_XJTU',
                         choices=['ADAMS_SEU', 'SEU', 'ADAMS_XJTU', 'XJTU'], 
                         help='if proposed method, choosing ADAMS_SEU or ADAMS_XJTU; elif baseline, choosing SEU or XJTU')
