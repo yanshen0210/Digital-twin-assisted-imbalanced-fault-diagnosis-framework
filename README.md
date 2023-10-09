@@ -15,7 +15,7 @@
 * and other necessary libs
 
 ## Datasets
-* [Save dataset](https://drive.google.com/file/d/1Hk1_mCPIN05n_axA6Qd74TYXUFIR6FU9/view?usp=sharing)
+* [Save dataset](https://drive.google.com/file/d/1Hk1_mCPIN05n_axA6Qd74TYXUFIR6FU9/view?usp=sharing) [（百度网盘）](https://pan.baidu.com/s/1NVRq5Ez_wypz6cMT_xE4Iw?pwd=c9i0)
 * ~~[ADAMS gearbox]~~
 <br> (We are very sorry that the simulation data cannot open for the time being because the sharing right is not obtained)
 * [SEU gearbox](https://drive.google.com/file/d/1ZfKWYK-xRl3Oy7zMuzlmkSy9G4mQh0y1/view?usp=drive_link)
